@@ -1,0 +1,6 @@
+[ISP INFO]
+PhoneBookFile=MIGRATE.OBE
+DUNFile=migip.dun
+
+[Options]
+CheckModemGCI=1
