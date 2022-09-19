@@ -19,7 +19,7 @@ Since the thesis used incremental dynamic analysis to look a variety of ground m
 2. the main assumption is that the blocks are rigid so that it is enough to track displacement of 3 points for each block at each analysis step (to keep output files small). The program uses singular value decomposition to recalculate the displacement/position of the rest of nodes for each block. 
 
 # Binaries
-Binaries for windows, linux and Mac OS are available as a release. Only the Windows version has been fully tested so you may need to build things from the source.
+Binaries for windows, linux and Mac OS are available as [a release](https://github.com/anayeri/Visual3DEC/releases). Only the Windows version has been fully tested so you may need to build things from the source.
 
 # Building from Source
 The source code for the program is available through this repository. You will need [Processing 1.5.1 IDE](https://github.com/processing/processing/releases/download/processing-1.5.1/processing-1.5.1-windows.zip) to edit and run the source code. Processing packages programs as "sketchbooks", so you will need to unzip the source code for the program and dependencies to the default sketchbook location.
