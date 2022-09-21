@@ -12,7 +12,7 @@ This program was developed as part of a thesis project titled, [Seismic Assessme
 
 Once you run the program, you need to use the collapsible menus on the upper right to import the 3DEC model. To see how the program works, a [sample model](https://raw.githubusercontent.com/anayeri/Visual3DEC/main/example/model/m03_geometry.dat) has been provided for reference before trying new models. Once the model is loaded, you can then open the time-history data saved from 3DEC via FISH functions. When you play the results, you can actually pan, zoom and rotate. A screencast of the basic operations is available on [YouTube](https://youtu.be/L4JJ2jVPOj8).
 
-Since the thesis used incremental dynamic analysis to look a variety of ground motion, in two directions, and at various intensities, there are 86 time-history runs which [are available in this folder](https://drive.google.com/open?id=0B9x30pwAHhpgekVERXhMMGlHQW8). You will need to download and load the .out files individually to see the animated time-history data.
+Since the thesis used incremental dynamic analysis to look a variety of ground motion, in two directions, and at various intensities, there are 86 time-history runs which [are available in this folder](https://github.com/anayeri/Visual3DEC/tree/main/example/data). You will need to download and load the .out files individually to see the animated time-history data.
 
 **Important Notes**
 1. the program can only load poly prism elements (not bricks). But adding new elements shouldn't be too hard.
