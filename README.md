@@ -1,5 +1,5 @@
 # Introduction
-This is small program developed using [Processing](https://processing.org/) to visualize the results of analysis done with Discrete Element Model software [Itasca 3DEC](https://www.itascacg.com/software/3DEC). The viewer program was created using Processing (version 1.5.1) written in Java for viewing the model and time history analysis results in 3D at every time step and allows panning, zooming and rotating of the time history animation in realtime. This means models do not have to be rerun in 3DEC if you want a different view. There are also some export options for images and videos (somewhat experimental). 
+This is small program developed using [Processing](https://processing.org/) to visualize the results of analysis done with Discrete Element Model software @itasca [3DEC](https://www.itascacg.com/software/3DEC). The viewer program was created using Processing (version 1.5.1) written in Java for viewing the model and time history analysis results in 3D at every time step and allows panning, zooming and rotating of the time history animation in realtime. This means models do not have to be rerun in 3DEC if you want a different view. There are also some export options for images and videos (somewhat experimental). 
 
 The current work is woefully outdated and has been shared as a proof of concept rather than a fully functional program.
 
@@ -12,7 +12,7 @@ This program was developed as part of a thesis project titled, [Seismic Assessme
 
 Once you run the program, you need to use the collapsible menus on the upper right to import the 3DEC model. To see how the program works, a [sample model](https://raw.githubusercontent.com/anayeri/Visual3DEC/main/example/model/m03_geometry.dat) has been provided for reference before trying new models. Once the model is loaded, you can then open the time-history data saved from 3DEC via FISH functions. When you play the results, you can actually pan, zoom and rotate. A screencast of the basic operations is available on [YouTube](https://youtu.be/L4JJ2jVPOj8).
 
-Since the thesis used incremental dynamic analysis to look a variety of ground motion, in two directions, and at various intensities, there are 86 time-history runs which [are available here](https://drive.google.com/open?id=0B9x30pwAHhpgekVERXhMMGlHQW8). You will need to unzip and load the .out file to see the animated time-history data.
+Since the thesis used incremental dynamic analysis to look a variety of ground motion, in two directions, and at various intensities, there are 86 time-history runs which [are available in this folder](https://drive.google.com/open?id=0B9x30pwAHhpgekVERXhMMGlHQW8). You will need to download and load the .out files individually to see the animated time-history data.
 
 **Important Notes**
 1. the program can only load poly prism elements (not bricks). But adding new elements shouldn't be too hard.
